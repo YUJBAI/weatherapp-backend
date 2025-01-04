@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-dotenv.config();
+dotenv.config(); // This load the .env file to our env
 process.env.NODE_ENV = process.env.NODE_ENV ?? "dev";
 
 module.exports = {
