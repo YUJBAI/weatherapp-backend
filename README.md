@@ -18,7 +18,7 @@ app/routes -> app/middleware(maybe) -> app/validation -> app/controller -> app/s
 - controller (handle stuff related to req and res)
 - services (business logic/third party API)
 
-- .env (environments variables to START YOUR APP, DO NOT COMMIT THIS FILE, this should be in .ignore)
+- .env (environments variables to START YOUR APP, DO NOT COMMIT THIS FILE, this should be in .gitignore)
 
 mvc (model, view(react), controller)
 model (ORM)
